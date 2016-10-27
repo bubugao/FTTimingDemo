@@ -14,6 +14,7 @@
 		38C6F18D1DC186C500C4498F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C6F18C1DC186C500C4498F /* Assets.xcassets */; };
 		38C6F1901DC186C500C4498F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C6F18E1DC186C500C4498F /* LaunchScreen.storyboard */; };
 		38C6F19D1DC19C6100C4498F /* FTTimerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C6F19C1DC19C6100C4498F /* FTTimerUtil.m */; };
+		38C6F19F1DC1E25000C4498F /* Timing.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C6F19E1DC1E25000C4498F /* Timing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		38C6F1911DC186C500C4498F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38C6F19B1DC19C6100C4498F /* FTTimerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTimerUtil.h; sourceTree = "<group>"; };
 		38C6F19C1DC19C6100C4498F /* FTTimerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTimerUtil.m; sourceTree = "<group>"; };
+		38C6F19E1DC1E25000C4498F /* Timing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timing.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		38C6F17F1DC186C500C4498F /* StudyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38C6F19E1DC1E25000C4498F /* Timing.png */,
 				38C6F19A1DC19C5100C4498F /* FTTimerUtil */,
 				38C6F1831DC186C500C4498F /* AppDelegate.h */,
 				38C6F1841DC186C500C4498F /* AppDelegate.m */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C6F1901DC186C500C4498F /* LaunchScreen.storyboard in Resources */,
+				38C6F19F1DC1E25000C4498F /* Timing.png in Resources */,
 				38C6F18D1DC186C500C4498F /* Assets.xcassets in Resources */,
 				38C6F18B1DC186C500C4498F /* Main.storyboard in Resources */,
 			);
@@ -324,6 +328,7 @@
 				38C6F1961DC186C500C4498F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
